@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <h2>Eazy Mart</h2>
+        <h1>hlw bro ami try kortasi</h1>
       </main>
     </>
   );
