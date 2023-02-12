@@ -6,7 +6,7 @@ import { GiShop, GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
     return (
         <div>
-            <div className='h-28 sm:h-12 bg-zinc-300 text-gray-900 flex items-center font-serif'>
+            <div className='h-28 sm:h-12 bg-base-300 text-gray-900 flex items-center font-serif'>
                 <div className='w-11/12 mx-auto lg:w-10/12 sm:flex justify-between items-center'>
                     <div className='sm:flex'>
                         <div className='flex items-center text-sm md:text-base'>
