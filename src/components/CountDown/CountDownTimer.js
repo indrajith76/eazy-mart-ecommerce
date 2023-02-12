@@ -42,25 +42,25 @@ export default function CountDownTimer() {
         <p>
           {days}
         </p>
-        <p className="text-sm">DAYS</p>
+        <p className="text-xs">DAYS</p>
       </div>
       <div className="flex font-semibold flex-col items-center text-cyan-500 shadow-xl bg-black  w-16 h-12 rounded-lg">
         <p>
           {hours}
         </p>
-        <p className="text-sm">HOURS</p>
+        <p className="text-xs">HOURS</p>
       </div>
       <div className="flex font-semibold flex-col items-center text-cyan-500 shadow-xl bg-black  w-16 h-12 rounded-lg">
         <p>
           {minutes}
         </p>
-        <p className="text-sm">MINUTES</p>
+        <p className="text-xs">MINUTES</p>
       </div>
       <div className="flex font-semibold flex-col items-center text-cyan-500 shadow-xl bg-black  w-16 h-12 rounded-lg">
         <p>
           {seconds}
         </p>
-        <p className="text-sm">SECONDS</p>
+        <p className="text-xs">SECONDS</p>
       </div>
     </section>
   );

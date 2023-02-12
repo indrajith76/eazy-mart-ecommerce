@@ -2,7 +2,7 @@ import CountDownTimer from "./CountDownTimer";
 
 export default function CountDown() {
   return (
-    <section className="bg-gradient-to-r from-black to-cyan-500 h-[100vh]">
+    <section className="bg-gradient-to-r from-cyan-500 via-black to-green-500 h-[100vh]">
       {/* container */}
       <section className="container mx-auto">
         <h1 className="py-2 text-center text-3xl md:text-5xl font-semibold text-white text-5xl">
@@ -10,7 +10,7 @@ export default function CountDown() {
         </h1>
         <section className="md:flex  md:justify-between my-5 py-5">
           <div className="relative hidden md:block">
-            <div className="absolute bottom-2 left-1">
+            <div className="absolute bottom-1 left-1">
               <CountDownTimer />
             </div>
             <img
@@ -48,7 +48,7 @@ export default function CountDown() {
             </div>
           </div>
           <div className="relative hidden md:block">
-            <div className="absolute bottom-2 left-1">
+            <div className="absolute bottom-1 left-1">
               <CountDownTimer />
             </div>
             <img

@@ -17,7 +17,6 @@ export default function Home() {
       </Head>
       <main>
         {/* test code your here | test area*/}
-        <CountDown/>
       </main>
     </>
   );
