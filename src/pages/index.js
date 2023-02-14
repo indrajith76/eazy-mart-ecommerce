@@ -3,7 +3,8 @@ import { Inter } from "@next/font/google";
 import CountDownTimer from "@/components/CountDown/CountDownTimer";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
-import CountDown from "@/components/CountDown/CountDown";  
+import CountDown from "@/components/CountDown/CountDown";   
+import Banner from "@/components/Bannner/Bannner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
       <main> 
         <Navbar/>
+        <Banner/>
         <CountDown/>
         <CountDownTimer/>
         <Footer/> 
