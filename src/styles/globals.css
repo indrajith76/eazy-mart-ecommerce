@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
-<<<<<<< HEAD
-
+ 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: white;
-=======
+  background-color: white; 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -87,8 +84,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
->>>>>>> 1e027a6d8ffef5b21be2eaa3903e6f106d7424db
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); 
 }
 
 a {
@@ -100,15 +96,14 @@ a {
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
+ 
 @media (prefers-color-scheme: white) {
   html {
     color-scheme: white;
   }
   body {
     color: white; 
-  }
-=======
+  } 
 button {
   background: transparent;
   border: 0;
@@ -251,7 +246,6 @@ button {
   height: 100%;
   border-radius: 12px;
   display: inline-block;
-  background: linear-gradient(to right, #151515 0%, rgba(21, 21, 21, 0) 100%);
-  /* W3C */
->>>>>>> 1e027a6d8ffef5b21be2eaa3903e6f106d7424db
+  background: linear-gradient(to right, #151515 0%, rgba(21, 21, 21, 0) 100%); 
+}
 }
