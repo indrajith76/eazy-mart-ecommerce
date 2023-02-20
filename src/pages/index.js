@@ -1,15 +1,15 @@
-import Head from "next/head"; 
-import { Inter } from "@next/font/google";  
+import Head from "next/head";
+import { Inter } from "@next/font/google";
 import CountDownTimer from "@/components/CountDown/CountDownTimer";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
-import CountDown from "@/components/CountDown/CountDown";   
+import CountDown from "@/components/CountDown/CountDown";
 import Banner from "@/components/Bannner/Bannner";
+import TopSellingProducts from "@/components/TopSellingProducts/TopSellingProducts";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -18,12 +18,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main> 
-        <Navbar/>
-        <Banner/>
-        <CountDown/>
-        <CountDownTimer/>
-        <Footer/> 
+      <main>
+        <Navbar />
+        <Banner />
+        <TopSellingProducts></TopSellingProducts>
+        <CountDown />
+        <CountDownTimer />
+        <Footer />
       </main>
     </>
   );
