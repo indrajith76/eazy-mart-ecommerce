@@ -6,7 +6,7 @@ export default function CountDownTimer() {
   const [seconds, setSeconds] = useState(0);
   let interval;
   const startTimer = () => {
-    const countDownDate = new Date("Feb 28,2023 ").getTime();
+    const countDownDate = new Date("Mar 07,2023 ").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
